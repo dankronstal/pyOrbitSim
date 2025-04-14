@@ -45,8 +45,10 @@ I just needed a nice data generator app for some fun 3D data visualization stuff
     SASL_PASSWORD=Endpoint=sb://...;SharedAccessKeyName=...;SharedAccessKey=...;EntityPath=...
     TOPIC=es_your_eventstream_topic
     ```
+    ![Fabric EventStream Config](fabricEventStreamConfig.jpg)
+    (SASL_USERNAME must be hardcoded to ```$ConnectionString```)
 
-3. **Run the producer**
+3. **Run the simulator**
 
     ```bash
     python main.py
