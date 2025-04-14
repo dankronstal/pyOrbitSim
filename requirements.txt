@@ -1,0 +1,5 @@
+confluent_kafka
+rich
+keyboard
+python-dotenv
+numpy
